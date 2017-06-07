@@ -10,8 +10,8 @@
 .ui-head{
 	position: relative;
 	height: 150px;
-	width: 70%;
-	left: 15%;
+	width: 80%;
+	left: 10%;
 	top: 10px;
 }
 .ui-head-logo{
@@ -41,8 +41,8 @@
 .ui-choose{
 	position: relative;
 	height: 40px;
-	width: 70%;
-	left: 15%;
+	width: 80%;
+	left: 10%;
 	background: linear-gradient(#C60000,#8D0000);
 	color: white;
 	font-size: 150%;
@@ -59,8 +59,8 @@
 .ui-search{
 	position: relative;
 	height: 50px;
-	width: 70%;
-	left: 15%;
+	width: 80%;
+	left: 10%;
 }
 .ui-search-in{
 	margin: 20px;
@@ -96,8 +96,8 @@
 .ui-item{
 	position: relative;
 	height: 1000px;
-	width: 70%;
-	left: 15%;
+	width: 80%;
+	left: 10%;
 }
 .ui-item-option{
 	position: relative;
@@ -196,7 +196,7 @@
 }
 .word-kind-date{
 	width: 20%;
-	height: 70%;
+	height: 80%;
 	text-align:center;
 	overflow: hidden;
 	white-space: nowrap;
