@@ -24,6 +24,8 @@
        <td>笔记本</td>
        <td>MSI PE62 7RD-1251CN</td>
        <td>2017-05-26</td>
+     </tr>
+     <tr>
        <td>笔记本</td>
        <td>MSI GE62 7RF-672CN</td>
        <td>2017-05-10</td>
