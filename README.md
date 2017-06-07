@@ -30,6 +30,26 @@
        <td>MSI GE62 7RF-672CN</td>
        <td>2017-05-10</td>
      </tr>
+     <tr>
+       <td>笔记本</td>
+       <td>MSI GP72VR 7RF-297CN</td>
+       <td>2017-04-05</td>
+     </tr>
+     <tr>
+       <td>笔记本</td>
+       <td>Dell XPS 13 2in1 2017</td>
+       <td>2017-03-16</td>
+     </tr>
+     <tr>
+       <td>笔记本</td>
+       <td>MSI GS63VR 7RF-258CN</td>
+       <td>2017-02-20</td>
+     </tr>
+     <tr>
+       <td>笔记本</td>
+       <td>Alienware 17 2016 R4</td>
+       <td>2017-02-10</td>
+     </tr>
    </table>
 </div>
 
