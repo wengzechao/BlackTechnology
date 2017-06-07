@@ -17,10 +17,10 @@
 	<div class="bg"></div>
 	
 	<div class="flex-box ui-logo">
-		<img src="img/logo-fp.png" alt="01s" class="p">
+		<img src="img/logo-3.png" alt="01s" class="p">
 	</div>
 	<div class="ui-login">
-		<div class="tab-login flex-box flex-center apply-status" style="display: flex;">进入</div>
+		<div class="tab-login flex-box flex-center apply-status" style="display: flex;" onclick="document.location=' homepage.html';">进入</div>
 	</div>
 	<div class="side-box">
 		<div class="tip1 text-center">欢迎来到黑科技</div>
@@ -129,8 +129,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#back").click(function(){
-    $("#text").show("slow");
-    $("#login").show("slow");
+ 	$("#text").hide("slow");
+    $("#register").show("slow");
     $("#apply").hide("slow");
     
   });
