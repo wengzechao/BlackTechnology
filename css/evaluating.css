@@ -5,6 +5,7 @@
 }
 .ui-BT{
 	width: 100%;
+	height: 2300px;
 	background-color: #F8F8F8;
 }
 .ui-head{
@@ -99,48 +100,19 @@
 	width: 80%;
 	left: 10%;
 }
-.ui-item-option{
-	position: relative;
-	height: 50px;
-	border-bottom: solid 3px #8D0000;
-	display: flex;
-	text-align:center;
-	line-height: 50px;
-	font-weight: bold;
+
+.z{
+	margin-left: 0px;
+	width: 1000px;
+	height: 28px;
+	font-weight: 600;
+	color: #b10000;
+	line-height: 25px;
+	zoom:1.1;
 }
-#ui-item-option-title{
-	position: relative;
-	width: 16%;
-	background-color: #8D0000;
-	color: white;
-}
-#all{
-	position: relative;
-	width: 12%;
-}
-#laptop{
-	position: relative;
-	width: 12%;
-}
-#processor{
-	position: relative;
-	width: 12%;
-}
-#mainboard{
-	position: relative;
-	width: 12%;
-}
-#graphic{
-	position: relative;
-	width: 12%;
-}
-#peripheral{
-	position: relative;
-	width: 12%;
-}
-#desktop{
-	position: relative;
-	width: 12%;
+.z i{
+	height: 25px;
+	line-height: 25px;
 }
 .ui-item-content{
 	position: relative;
@@ -667,12 +639,11 @@
 .ui-box0{
 width: 100%;
   height: 2000px;
-  background-color: white;
+  background-color: #F8F8F8;
   border-style: none;
   margin-left: 40px;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   margin-left: 0px;
 }
 .ui-box1{
@@ -709,7 +680,13 @@ width: 100%;
 	position: relative;
   width:100%;
   height:30px;
-  margin:20px 200px 20px 20px;
+}
+.ui-box1-feilei_1{
+	position: relative;
+  width:100%;
+  height:30px;
+  font-weight: bold;
+  font-size: 150%;
 }
 .ui-box1-feilei a{
 	color: green;
@@ -718,7 +695,6 @@ width: 100%;
 	position: relative;
   width:1200px;
   height:30px;
-  margin:15px 20px 10px 40px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
