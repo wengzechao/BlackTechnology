@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.ui-head{
+	position: relative;
+	height: 150px;
+	width: 80%;
+	left: 10%;
+	top: 10px;
+}
+.ui-head-logo{
+	position: relative;
+	left: 2%;
+	width: 135px;
+	height: 135px;
+}
+/*.ui-head-logo img{
+	left: 10%;
+	width: 135px;
+	height: 135px;
+}*/
+.ui-head-sign{
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	right: 20px;
+}
+.ui-head-sign-in{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 150%;
+}
+.ui-choose{
+	position: relative;
+	height: 40px;
+	width: 80%;
+	left: 10%;
+	background: linear-gradient(#C60000,#8D0000);
+	color: white;
+	font-size: 150%;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+}
+#si a{
+	color: black;
+}
+#hp a{
+	color: #fff;
+}
+.ui-search{
+	position: relative;
+	height: 50px;
+	width: 80%;
+	left: 10%;
+}
+.ui-search-in{
+	margin: 20px;
+	width: 20%;
+	height: 40px;
+}
+.search2{
+	position: absolute;
+	top: -10px;
+	right: 20px;
+	margin-top: 10px;
+	width: 20%;
+	height: 40px;
+}
+/*.input1{
+	width: 20%;
+	height: 30px;
+}*/
+.searchb{
+	position: absolute;
+	top: 5px;
+	left: 20%;
+	width: 20px;
+	height: 20px;
+}
+.searchc{
+	position: absolute;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	right: 20px;
+}
+.ui-item{
+	position: relative;
+	height: 500px;
+	width: 80%;
+	left: 10%;
+	background-color: #fff;
+}
+.z{
+	margin-left: 0px;
+	width: 1000px;
+	height: 28px;
+	font-weight: 600;
+	color: #b10000;
+	line-height: 25px;
+	zoom:1.1;
+}
+.z i{
+	height: 25px;
+	line-height: 25px;
+}
+.xs2{
+	font-size: 14px;
+	margin-left: 0px;
+	height: 30px;
+	border: 1px;
+	padding: 1px;
+}
+.bm_c{
+	border: 1px;
+	padding: 1px;
+	font-size: 14px;
+	margin-left: 0px;
+	height: 30px;
+	line-height: 32px;
+	background-color: #fff;
+}
+.bm_h{
+	width: 100%;
+	background-color: #F8F8F8;
+}
+.bm_h h1{
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 26px;
+}
+.xi2{
+	color: #B10000;
+	font-size: 15px;
+	font-weight: 600px;
+}
+.xld{
+	margin-left: 0px;
+	padding: 10px;
+	word-wrap:break-word;
+	display: block;
+	height: 1400px;
+	width: 80%;
+	background-color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+.xs3{
+	font-size: 14px;
+	height: 30px;
+	border: 1px;
+	padding: 1px;
+}
+.cs2_c1{
+	width: 1078px;
+	height: 200px;
+	margin-left: 0px;
+}
+.bbda_c1{
+	border-bottom: 1px dashed #DDD;
+	zoom:1;
+}
+.atc{
+	display: block;
+	float: right;
+	width: 344px;
+	height: 200px;
+	margin-left: 20px;
+}
+.tn{
+	width: 344px;
+	height: 200px;
+}
+.xg1{
+	color: #999;
+}
+
+.pgs{
+	margin: 1px;
+	height: 28px;
+	width: 1124px;
+}
+.pg{
+	line-height: 26px;
+	float: right;
+	height: 28px;
+	width: 324px;
+
+}
+.pg strong{
+	width: 28px;
+	background-color: #e6e6e6;
+	float: left;
+	display: inline;
+	margin-left: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 26px;
+	border: 1px solid #B10000;
+	background-repeat: no-repeat;
+	color: #333;
+	overflow: hidden;
+	text-decoration: none;
+}
+.pg a{
+	width: 28px;
+	float: left;
+	display: inline;
+	margin-left: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 26px;
+	border: 1px solid #B10000;
+	background-repeat: no-repeat;
+	color: #333;
+	overflow: hidden;
+	text-decoration: none;
+}
+.pg label{
+	width: 80px;
+	float: left;
+	display: inline;
+	margin-left: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 26px;
+	border: 1px solid #B10000;
+	background-repeat: no-repeat;
+	color: #333;
+	overflow: hidden;
+	text-decoration: none;
+}
+.inpx{
+	padding: 0;
+	width: 25px;
+	height: 16px;
+	line-height: 16px;
+}
+a.next{
+	width: 62px;
+}
+#ft{
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border-top: 1px solid #DDD;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.8;
+	color: #666;
+	width: 1100px;
+	height: 73px;
+	zoom:1;
+}
+#flk{
+	text-align: center;
+}
+.y{
+	float: right;
+	width: 780px;
+	height: 73px;
+	
+}
+.y a{
+	color: #666;
+}
+.xg1 a{
+	color: #B10000;
+}

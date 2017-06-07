@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>BlackTechnology</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/index.css" rel="stylesheet">
+<link rel="stylesheet" href="lib/vegas-master/dist/vegas.min.css">
+<script src="lib/jquery-3.2.1.js"></script>
+<script src="lib/vegas-master/src/vegas.js"></script>
+
+</head>
+<body>
+
+	<div class="bg"></div>
+	
+	<div class="flex-box ui-logo">
+		<img src="img/logo-3.png" alt="01s" class="p">
+	</div>
+	<div class="ui-login">
+		<div class="tab-login flex-box flex-center apply-status" style="display: flex;" onclick="document.location=' homepage.html';">进入</div>
+	</div>
+	<div class="side-box">
+		<div class="tip1 text-center">欢迎来到黑科技</div>
+		<div class="tip2 text-center">买硬件就是要有追求</div>
+		<div class="tip3 text-center" id="text">"没有垃圾的配置，只有玩转不了配置的人，在黑科技，"<br>"我们追求实惠，也追求实用"</div>
+		<div class="side-box-login">
+			<div class="login"  id="login">
+				<input type="text" class="name" placeholder="输入账号">
+				<input type="text" class="name" placeholder="输入密码">
+				<div class="login-tip3">
+					<div href="" class="side-box-login-button">登录</div>
+					<div class="login-forget">忘记密码</div>
+				</div>
+				<div class="login-tip4" id="reg">
+					<div class="login-regin">去注册</div>
+				</div>
+			</div>
+			<div class="login"  id="register" style="display: none;">
+				<input type="text" class="name" placeholder="输入邮箱">
+				<input type="text" class="name" placeholder="输入密码">
+				<input type="text" class="name" placeholder="确认密码">
+				<input type="text" class="name" placeholder="输入邀请码">
+				<div class="login-tip3">
+					<div href="" class="side-box-login-button">注册</div>
+					<div class="login-forget" id="app">申请邀请码</div>
+				</div>
+				<div class="login-tip4" id="log">
+					<div class="login-regin">去登录</div>
+				</div>
+			</div>
+			<div class="apply"  id="apply" style="display: none;">
+			<div class="apply-input" >
+				<input type="text" class="email-address-input" placeholder="输入你的邮箱">
+				
+				<div class="login-tipa">
+					<div href="" class="side-box-apply-button" id="back">申请邀请码</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="part-intro" >
+			<div class="part-intro-img">
+				<li><img src="img/m01.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m02.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m03.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m04.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m05.jpg" alt="" class="img-circel"></li>
+				<li class="mr0"><img src="img/m06.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m07.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m08.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m09.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m10.jpg" alt="" class="img-circel"></li>
+				<li><img src="img/m11.jpg" alt="" class="img-circel"></li>
+				<li class="mr0"><img src="img/m12.png" alt="" class="img-circel"></li>
+				
+				
+			</div>
+		</div>
+	<div class="foot">
+		<ul class="foot-ul">
+			<li class="foot-li"><a href="" class="grey5">加入我们</a></li>
+			<li class="foot-li"><a href="" class="grey5">联系我们</a></li>
+			<li class="foot-li"><a href="" class="grey5">调戏我们</a></li>
+			<li class="foot-li"><a href="" class="grey5">社区规则</a></li>
+		</ul>
+	</div>
+
+    <script>
+$('#example, body').vegas({
+ slides: [
+ { src: 'img/bg01.jpg' },
+ { src: 'img/bg02.jpg' },
+ { src: 'img/bg03.jpg' },
+ { src: 'img/bg04.jpg' },
+ { src: 'img/bg05.jpg' },
+ { src: 'img/bg06.jpg' }
+ ]
+});
+$(document).ready(function(){
+  $("#reg").click(function(){
+   
+    $("#login").hide("slow");
+    $("#text").hide("slow");
+    $("#register").show("slow");
+    
+  });
+});
+$(document).ready(function(){
+  $("#log").click(function(){
+   
+    $("#login").show("slow");
+    $("#text").show("slow");
+    $("#register").hide("slow");
+    
+  });
+});
+$(document).ready(function(){
+  $("#app").click(function(){
+    $("#text").show("slow");
+    $("#apply").show("slow");
+    $("#register").hide("slow");
+    
+  });
+});
+$(document).ready(function(){
+  $("#back").click(function(){
+ 	$("#text").hide("slow");
+    $("#register").show("slow");
+    $("#apply").hide("slow");
+    
+  });
+});
+
+</script>
+
+</body>
+</html>
