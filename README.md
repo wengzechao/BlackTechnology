@@ -13,29 +13,18 @@
 ## 界面设计
  
 ## 数据结构
-  <div>
-       <table border="0">
-              <tr>
-                  <th>one</th>
-                    <th>two</th>
-                  </tr>
-                  <tr>
-                    <td>Hello</td>
-                    <td>你好</td>
-                  </tr>
-            </table>
-        </div>
-        
 <div>
-        <table border="0">
-          <tr>
-            <th>one</th>
-            <th>two</th>
-          </tr>
-          <tr>
-            <td>Hello</td>
-            <td>你好</td>
-          </tr>
-        </table>
+  <table border="0">
+     <tr>
+       <th>type</th>
+       <th>name</th>
+       <th>time</th>
+     </tr>
+     <tr>
+       <td>笔记本</td>
+       <td>MSI PE62 7RD-1251CN</td>
+       <td>2017-05-26</td>
+     </tr>
+   </table>
 </div>
 ## 功能模块
