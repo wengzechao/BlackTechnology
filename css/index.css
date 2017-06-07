@@ -10,6 +10,14 @@
 
 	z-index: 2;
 }
+.side-box2{
+	top: 100px;
+	position: relative;
+	width: 100%;
+	height: 425px;
+
+	z-index: 2;
+}
 .ui-logo{
 
 	z-index: 2;
@@ -133,6 +141,22 @@
 	width: 300px;
 
 }
+.apply{	
+	height: 175px;
+	width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction:row;
+}
+.apply-input
+{
+	display: flex;
+	width: 420px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
 .name{
 	width: 100%;
 	background: rgba(255, 255, 255, 0.7);
@@ -160,9 +184,43 @@
     text-align: center;
     
 }
+.side-box-apply-button{
+	width: 110px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 1px;
+    font-size: 14px;
+    line-height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+    
+}
+.email-address-input{
+	width: 300px;
+	background: rgba(255, 255, 255, 0.7);
+	height: 40px;
+	box-sizing: border-box;
+    border: 0;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 1px;
+    z-index: 3;
+    float: left;
+}
 .side-box-login-button:hover{
 	color: white;
     cursor: pointer;
+    border: 1px solid white; 
+}
+.side-box-apply-button:hover{
+	color: white;
+    cursor: pointer;
+    background-color: rgba(252, 66, 95, 1);
     border: 1px solid white; 
 }
 input {
@@ -178,6 +236,11 @@ input {
 .login-tip3{
 	margin-top: 10px;
 	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+.login-tipa{
+	text-align: center;
 	justify-content: space-between;
 	display: flex;
 }
