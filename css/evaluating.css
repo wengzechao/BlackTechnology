@@ -637,6 +637,8 @@
 }
 
 .ui-box0{
+	font-size: 15px;
+	font-weight: 600;
 width: 100%;
   height: 2150px;
   background-color: #F8F8F8;
@@ -663,13 +665,17 @@ width: 100%;
   height:141px;
   margin:20px;
 }
+.ui-box1-text-text a{
+	color: #8D0000;
+}
 .ui-box1-picture{
+
 	position: relative;
   width: 30%;
   right: 2%;
   height: 141px;
   border-style:none none none none;
-  margin-left: 0px;
+  margin-left: 20px;
   margin-right: 0px; 
   display: flex;
   flex-direction: row-reverse;
@@ -682,11 +688,12 @@ width: 100%;
   height:30px;
 }
 .ui-box1-feilei_1{
+
 	position: relative;
   width:100%;
-  height:30px;
+  height:35px;
   font-weight: bold;
-  font-size: 150%;
+  font-size: 110%;
 }
 .ui-box1-feilei a{
 	color: green;
